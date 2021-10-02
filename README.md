@@ -23,7 +23,7 @@ This is a fun app that does the Christmas countdoun
 Alena Rehberger
 
 ## Credits
-Thanks to w3schools https://w3schools.com, https://thisinterestsme.com/, and GeekProbin YouTube Channel for providing all of the necessery tools for building this application.
+Thanks to w3schools https://w3schools.com, https://thisinterestsme.com/, Videvo, and GeekProbin YouTube Channel for providing all of the necessery tools for building this application.
 
 ## Contacts
 If you have any questions, feel free to cantact me at: 
