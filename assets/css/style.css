@@ -1,6 +1,6 @@
 :root{
-    --smallFont: sans-serif;
-    --largeFont: serif;
+    --smallFont: 'Lato', san-serif;
+    --largeFont: 'Mountains of Christmas', cursive;
 
 }
 *{
@@ -8,9 +8,20 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--smallFont);
+
 }
 body{
-    line-height: 1.6;
+    line-height: 2;
+}
+div span{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+.container div {
+    opacity: 0.9;
+    border-radius: 10px;
 }
 .container{
     min-height: 100vh;
@@ -20,6 +31,7 @@ body{
     text-align: center;
     position: relative;
     padding: 0 1.2rem;
+ 
 }
 .container::after{
     content: "";
@@ -44,13 +56,14 @@ body{
     margin: 3rem 0;
 }
 .content h1{
-    font-size: 2rem;
+    font-size: 4rem;
     text-transform: uppercase;
     font-family: var(--largeFont);
     letter-spacing: 6px;
     word-spacing: 5px;
     position: relative;
     padding-bottom: 0.8rem;
+    text-shadow: 2px 2px #ff0000;
 }
 .container h1::after{
     position: absolute;
@@ -62,10 +75,9 @@ body{
     border-radius: 3px;
     width: 60%;
     background: #ffbf00;
-
 }
 .content h2{
-    font-size: 1.15rem;
+    font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -80,30 +92,24 @@ body{
 .time-show div{
     background: white;
     margin: 0.5rem;
-    width: 150px;
-    height: 140px;
+    width: 100px;
+    height: 90px;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.time-showdiv span{
-    display: block;
-    font-size: 3rem;
-    font-weight: 400;
-    opacity: 0.9;
-    
-}
+
 .time-show div p{
     color: red;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 1.2rem;
     letter-spacing: 2px;
     font-weight: 600;
     
 }
 .container blockquote{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -114,9 +120,9 @@ body{
 
 }
 
-@media screen and (min-width:480px){
+@media screen and (min-width:375px){
     .content h1{
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .time-show{
@@ -126,7 +132,7 @@ body{
     .time-show div{
         flex: 0 0 calc(50% - 1rem);
         width:190px;
-        height: 180px;
+        height:180px;
     }
 }
 
@@ -137,8 +143,8 @@ body{
     }
 }
 
-@media screen and (min-width:4992px){
-    .contener{
+@media screen and (min-width:992px){
+    .conteiner{
         padding: 0 3rem;
     }
     .time-show div{
